@@ -6,7 +6,7 @@ const client = new Client({
 });
 
 // Replace this with your bot token
-const BOT_TOKEN = 'MTMxMDMyODE0ODU5MTY0NDc1Mw.Gm97Er.GkVeG_k9BsdlqN0ZxuxDgm70mIk7zPFtYAFOqE';
+const BOT_TOKEN = 'YOUR_TOKEN_HERE';
 
 client.once('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
